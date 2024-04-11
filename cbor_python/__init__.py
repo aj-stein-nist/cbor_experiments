@@ -2,10 +2,12 @@
 
 from typing import List
 from .initial_byte_table import *
+from .major_type_table import *
 
 def loads(data: int|bytearray):
     """Deserialize a CBOR data item with the generic data model in RFC 8949.
     """
+
     raise NotImplementedError("I cannot deserialize yet!")
 
 def dumps():
